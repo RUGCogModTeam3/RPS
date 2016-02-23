@@ -1,0 +1,105 @@
+;;; Model of Rock Paper Scissors
+;;;
+
+(add-dm
+    (RR isa decision step1 rock step2 rock)
+    (RP isa decision step1 rock step2 paper)
+    (RS isa decision step1 rock step2 scissors)
+    (PR isa decision step1 paper step2 rock)
+    (PP isa decision step1 paper step2 paper)
+    (PS isa decision step1 paper step2 scissors)
+    (SR isa decision step1 scissors step2 rock)
+    (SP isa decision step1 scissors step2 paper)
+    (SS isa decision step1 scissors step2 scissors)
+    (d1 isa beats slot1 scissors slot2 rock)
+    (d2 isa beats slot1 rock slot2 paper)
+    (d3 isa beats slot1 paper slot2 scissors)
+    (goal isa goal state start)
+)
+
+(set-all-baselevels -100 10) ;; time offset and number of references
+
+;; At the start of the model, retrieve any decision
+
+(p retrieve-decision-start
+   =goal>
+     isa goal
+     state start
+     playerlast nil
+==>
+   =goal>
+     state retrieve
+     playerlast start
+   +retrieval>
+     isa decision
+   -imaginal>
+)
+
+;; But afterwards, retrieve base on the last decision of the opponent
+(p retrieve-decision
+    =goal>
+        isa goal
+        state start
+        playerlast =last
+==>
+    =goal>
+        state retrieve
+    +retrieval>
+        isa decision
+        step1 =last
+)
+
+;; retrieve what beats the predictions
+(p retrieve-beats
+    =goal>
+        isa goal
+        state retrieve
+    =retrieval>
+        isa decision
+        step2 =prediction
+==>
+    =goal>
+        state retrieve-beats
+    +retrieval>
+        isa beats
+        slot1 =prediction
+)
+
+(p make-decision
+   =goal>
+     isa goal
+     state retrieve-beats
+   =retrieval>
+     isa beats
+     slot2 =decision
+==>
+   =goal>
+     state decide
+   +action>
+     isa move
+     choice =decision
+)
+
+(p restart-after-action
+  =goal>
+    isa goal
+    state decide
+    playerlast =last
+  =action>
+    isa move
+    opponent =decision
+==>
+  +goal>
+     isa goal
+     state start
+     playerlast =decision
+  +imaginal>
+    isa decision
+    step1 =last
+    step2 =decision
+  -action>
+)
+
+
+(goal-focus goal)
+

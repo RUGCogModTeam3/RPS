@@ -20,6 +20,7 @@
 		AB27AA931C7C8B84008E1D15 /* SlotCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA861C7C8B84008E1D15 /* SlotCondition.swift */; };
 		AB27AA941C7C8B84008E1D15 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA871C7C8B84008E1D15 /* Support.swift */; };
 		AB27AA951C7C8B84008E1D15 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA881C7C8B84008E1D15 /* Tokenizer.swift */; };
+		AB27AA981C7C8C95008E1D15 /* rps.actr in Resources */ = {isa = PBXBuildFile; fileRef = AB27AA971C7C8C95008E1D15 /* rps.actr */; };
 		AB7A49941C77572B0047B2A6 /* NavigationUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49931C77572B0047B2A6 /* NavigationUIController.swift */; };
 		ABA55FA21C771C0F0098B8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA55FA11C771C0F0098B8B6 /* AppDelegate.swift */; };
 		ABA55FA41C771C0F0098B8B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA55FA31C771C0F0098B8B6 /* ViewController.swift */; };
@@ -30,7 +31,6 @@
 		ABA55FC21C771C100098B8B6 /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA55FC11C771C100098B8B6 /* RPSUITests.swift */; };
 		ABA55FD61C77482C0098B8B6 /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA55FD51C77482C0098B8B6 /* RPS.swift */; };
 		ABA55FDD1C77483C0098B8B6 /* test.actr in Resources */ = {isa = PBXBuildFile; fileRef = ABA55FD71C77483C0098B8B6 /* test.actr */; };
-		ABA55FE11C77483C0098B8B6 /* rps.actr in Resources */ = {isa = PBXBuildFile; fileRef = ABA55FDB1C77483C0098B8B6 /* rps.actr */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,7 @@
 		AB27AA861C7C8B84008E1D15 /* SlotCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlotCondition.swift; path = RPS/SlotCondition.swift; sourceTree = "<group>"; };
 		AB27AA871C7C8B84008E1D15 /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Support.swift; path = RPS/Support.swift; sourceTree = "<group>"; };
 		AB27AA881C7C8B84008E1D15 /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tokenizer.swift; path = RPS/Tokenizer.swift; sourceTree = "<group>"; };
+		AB27AA971C7C8C95008E1D15 /* rps.actr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rps.actr; sourceTree = "<group>"; };
 		AB7A49931C77572B0047B2A6 /* NavigationUIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUIController.swift; sourceTree = "<group>"; };
 		ABA55F9E1C771C0F0098B8B6 /* RPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA55FA11C771C0F0098B8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		ABA55FC31C771C100098B8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA55FD51C77482C0098B8B6 /* RPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPS.swift; sourceTree = "<group>"; };
 		ABA55FD71C77483C0098B8B6 /* test.actr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.actr; sourceTree = "<group>"; };
-		ABA55FDB1C77483C0098B8B6 /* rps.actr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rps.actr; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				ABA55FD71C77483C0098B8B6 /* test.actr */,
-				ABA55FDB1C77483C0098B8B6 /* rps.actr */,
+				AB27AA971C7C8C95008E1D15 /* rps.actr */,
 			);
 			name = Models;
 			path = "../ACT-R/Prisoner's Dilemma";
@@ -301,8 +301,8 @@
 				ABA55FAC1C771C100098B8B6 /* LaunchScreen.storyboard in Resources */,
 				ABA55FDD1C77483C0098B8B6 /* test.actr in Resources */,
 				ABA55FA91C771C0F0098B8B6 /* Assets.xcassets in Resources */,
-				ABA55FE11C77483C0098B8B6 /* rps.actr in Resources */,
 				ABA55FA71C771C0F0098B8B6 /* Main.storyboard in Resources */,
+				AB27AA981C7C8C95008E1D15 /* rps.actr in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
