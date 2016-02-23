@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB7A49861C7748780047B2A6 /* Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49781C7748780047B2A6 /* Chunk.swift */; };
-		AB7A49871C7748780047B2A6 /* Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49791C7748780047B2A6 /* Production.swift */; };
-		AB7A49881C7748780047B2A6 /* Procedural.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A497A1C7748780047B2A6 /* Procedural.swift */; };
-		AB7A49891C7748780047B2A6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A497B1C7748780047B2A6 /* Parser.swift */; };
-		AB7A498A1C7748780047B2A6 /* Declarative.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A497C1C7748780047B2A6 /* Declarative.swift */; };
-		AB7A498B1C7748780047B2A6 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A497D1C7748780047B2A6 /* Support.swift */; };
-		AB7A498C1C7748780047B2A6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A497E1C7748780047B2A6 /* Model.swift */; };
-		AB7A498D1C7748780047B2A6 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A497F1C7748780047B2A6 /* Tokenizer.swift */; };
-		AB7A498E1C7748780047B2A6 /* Instantiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49801C7748780047B2A6 /* Instantiation.swift */; };
-		AB7A498F1C7748780047B2A6 /* SlotCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49811C7748780047B2A6 /* SlotCondition.swift */; };
-		AB7A49901C7748780047B2A6 /* BufferCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49821C7748780047B2A6 /* BufferCondition.swift */; };
-		AB7A49911C7748780047B2A6 /* SlotAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49831C7748780047B2A6 /* SlotAction.swift */; };
-		AB7A49921C7748780047B2A6 /* BufferAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49841C7748780047B2A6 /* BufferAction.swift */; };
+		AB27AA891C7C8B84008E1D15 /* BufferAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA7C1C7C8B84008E1D15 /* BufferAction.swift */; };
+		AB27AA8A1C7C8B84008E1D15 /* BufferCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA7D1C7C8B84008E1D15 /* BufferCondition.swift */; };
+		AB27AA8B1C7C8B84008E1D15 /* Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA7E1C7C8B84008E1D15 /* Chunk.swift */; };
+		AB27AA8C1C7C8B84008E1D15 /* Declarative.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA7F1C7C8B84008E1D15 /* Declarative.swift */; };
+		AB27AA8D1C7C8B84008E1D15 /* Instantiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA801C7C8B84008E1D15 /* Instantiation.swift */; };
+		AB27AA8E1C7C8B84008E1D15 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA811C7C8B84008E1D15 /* Model.swift */; };
+		AB27AA8F1C7C8B84008E1D15 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA821C7C8B84008E1D15 /* Parser.swift */; };
+		AB27AA901C7C8B84008E1D15 /* Procedural.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA831C7C8B84008E1D15 /* Procedural.swift */; };
+		AB27AA911C7C8B84008E1D15 /* Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA841C7C8B84008E1D15 /* Production.swift */; };
+		AB27AA921C7C8B84008E1D15 /* SlotAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA851C7C8B84008E1D15 /* SlotAction.swift */; };
+		AB27AA931C7C8B84008E1D15 /* SlotCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA861C7C8B84008E1D15 /* SlotCondition.swift */; };
+		AB27AA941C7C8B84008E1D15 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA871C7C8B84008E1D15 /* Support.swift */; };
+		AB27AA951C7C8B84008E1D15 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AA881C7C8B84008E1D15 /* Tokenizer.swift */; };
 		AB7A49941C77572B0047B2A6 /* NavigationUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A49931C77572B0047B2A6 /* NavigationUIController.swift */; };
 		ABA55FA21C771C0F0098B8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA55FA11C771C0F0098B8B6 /* AppDelegate.swift */; };
 		ABA55FA41C771C0F0098B8B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA55FA31C771C0F0098B8B6 /* ViewController.swift */; };
@@ -51,19 +51,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB7A49781C7748780047B2A6 /* Chunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chunk.swift; sourceTree = "<group>"; };
-		AB7A49791C7748780047B2A6 /* Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production.swift; sourceTree = "<group>"; };
-		AB7A497A1C7748780047B2A6 /* Procedural.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedural.swift; sourceTree = "<group>"; };
-		AB7A497B1C7748780047B2A6 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		AB7A497C1C7748780047B2A6 /* Declarative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Declarative.swift; sourceTree = "<group>"; };
-		AB7A497D1C7748780047B2A6 /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
-		AB7A497E1C7748780047B2A6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		AB7A497F1C7748780047B2A6 /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
-		AB7A49801C7748780047B2A6 /* Instantiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiation.swift; sourceTree = "<group>"; };
-		AB7A49811C7748780047B2A6 /* SlotCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotCondition.swift; sourceTree = "<group>"; };
-		AB7A49821C7748780047B2A6 /* BufferCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferCondition.swift; sourceTree = "<group>"; };
-		AB7A49831C7748780047B2A6 /* SlotAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotAction.swift; sourceTree = "<group>"; };
-		AB7A49841C7748780047B2A6 /* BufferAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferAction.swift; sourceTree = "<group>"; };
+		AB27AA7C1C7C8B84008E1D15 /* BufferAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BufferAction.swift; path = RPS/BufferAction.swift; sourceTree = "<group>"; };
+		AB27AA7D1C7C8B84008E1D15 /* BufferCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BufferCondition.swift; path = RPS/BufferCondition.swift; sourceTree = "<group>"; };
+		AB27AA7E1C7C8B84008E1D15 /* Chunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chunk.swift; path = RPS/Chunk.swift; sourceTree = "<group>"; };
+		AB27AA7F1C7C8B84008E1D15 /* Declarative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Declarative.swift; path = RPS/Declarative.swift; sourceTree = "<group>"; };
+		AB27AA801C7C8B84008E1D15 /* Instantiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Instantiation.swift; path = RPS/Instantiation.swift; sourceTree = "<group>"; };
+		AB27AA811C7C8B84008E1D15 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = RPS/Model.swift; sourceTree = "<group>"; };
+		AB27AA821C7C8B84008E1D15 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = RPS/Parser.swift; sourceTree = "<group>"; };
+		AB27AA831C7C8B84008E1D15 /* Procedural.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Procedural.swift; path = RPS/Procedural.swift; sourceTree = "<group>"; };
+		AB27AA841C7C8B84008E1D15 /* Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Production.swift; path = RPS/Production.swift; sourceTree = "<group>"; };
+		AB27AA851C7C8B84008E1D15 /* SlotAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlotAction.swift; path = RPS/SlotAction.swift; sourceTree = "<group>"; };
+		AB27AA861C7C8B84008E1D15 /* SlotCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlotCondition.swift; path = RPS/SlotCondition.swift; sourceTree = "<group>"; };
+		AB27AA871C7C8B84008E1D15 /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Support.swift; path = RPS/Support.swift; sourceTree = "<group>"; };
+		AB27AA881C7C8B84008E1D15 /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tokenizer.swift; path = RPS/Tokenizer.swift; sourceTree = "<group>"; };
 		AB7A49931C77572B0047B2A6 /* NavigationUIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUIController.swift; sourceTree = "<group>"; };
 		ABA55F9E1C771C0F0098B8B6 /* RPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA55FA11C771C0F0098B8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,31 +108,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB7A49851C7748780047B2A6 /* Core ACT-R */ = {
+		AB27AA961C7C8B97008E1D15 /* Act-R Support */ = {
 			isa = PBXGroup;
 			children = (
-				AB7A49781C7748780047B2A6 /* Chunk.swift */,
-				AB7A49791C7748780047B2A6 /* Production.swift */,
-				AB7A497A1C7748780047B2A6 /* Procedural.swift */,
-				AB7A497B1C7748780047B2A6 /* Parser.swift */,
-				AB7A497C1C7748780047B2A6 /* Declarative.swift */,
-				AB7A497D1C7748780047B2A6 /* Support.swift */,
-				AB7A497E1C7748780047B2A6 /* Model.swift */,
-				AB7A497F1C7748780047B2A6 /* Tokenizer.swift */,
-				AB7A49801C7748780047B2A6 /* Instantiation.swift */,
-				AB7A49811C7748780047B2A6 /* SlotCondition.swift */,
-				AB7A49821C7748780047B2A6 /* BufferCondition.swift */,
-				AB7A49831C7748780047B2A6 /* SlotAction.swift */,
-				AB7A49841C7748780047B2A6 /* BufferAction.swift */,
+				AB27AA7C1C7C8B84008E1D15 /* BufferAction.swift */,
+				AB27AA7D1C7C8B84008E1D15 /* BufferCondition.swift */,
+				AB27AA7E1C7C8B84008E1D15 /* Chunk.swift */,
+				AB27AA7F1C7C8B84008E1D15 /* Declarative.swift */,
+				AB27AA801C7C8B84008E1D15 /* Instantiation.swift */,
+				AB27AA811C7C8B84008E1D15 /* Model.swift */,
+				AB27AA821C7C8B84008E1D15 /* Parser.swift */,
+				AB27AA831C7C8B84008E1D15 /* Procedural.swift */,
+				AB27AA841C7C8B84008E1D15 /* Production.swift */,
+				AB27AA851C7C8B84008E1D15 /* SlotAction.swift */,
+				AB27AA861C7C8B84008E1D15 /* SlotCondition.swift */,
+				AB27AA871C7C8B84008E1D15 /* Support.swift */,
+				AB27AA881C7C8B84008E1D15 /* Tokenizer.swift */,
 			);
-			name = "Core ACT-R";
-			path = "../ACT-R/Prisoner's Dilemma";
+			name = "Act-R Support";
 			sourceTree = "<group>";
 		};
 		ABA55F951C771C0F0098B8B6 = {
 			isa = PBXGroup;
 			children = (
-				AB7A49851C7748780047B2A6 /* Core ACT-R */,
+				AB27AA961C7C8B97008E1D15 /* Act-R Support */,
 				ABA55FDC1C77483C0098B8B6 /* Models */,
 				ABA55FA01C771C0F0098B8B6 /* RPS */,
 				ABA55FB51C771C100098B8B6 /* RPSTests */,
@@ -328,23 +327,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB7A498A1C7748780047B2A6 /* Declarative.swift in Sources */,
-				AB7A49881C7748780047B2A6 /* Procedural.swift in Sources */,
-				AB7A49871C7748780047B2A6 /* Production.swift in Sources */,
+				AB27AA901C7C8B84008E1D15 /* Procedural.swift in Sources */,
+				AB27AA921C7C8B84008E1D15 /* SlotAction.swift in Sources */,
+				AB27AA8C1C7C8B84008E1D15 /* Declarative.swift in Sources */,
+				AB27AA911C7C8B84008E1D15 /* Production.swift in Sources */,
+				AB27AA8F1C7C8B84008E1D15 /* Parser.swift in Sources */,
+				AB27AA941C7C8B84008E1D15 /* Support.swift in Sources */,
+				AB27AA8D1C7C8B84008E1D15 /* Instantiation.swift in Sources */,
+				AB27AA8B1C7C8B84008E1D15 /* Chunk.swift in Sources */,
 				ABA55FA41C771C0F0098B8B6 /* ViewController.swift in Sources */,
 				ABA55FA21C771C0F0098B8B6 /* AppDelegate.swift in Sources */,
-				AB7A49921C7748780047B2A6 /* BufferAction.swift in Sources */,
-				AB7A498C1C7748780047B2A6 /* Model.swift in Sources */,
+				AB27AA8E1C7C8B84008E1D15 /* Model.swift in Sources */,
+				AB27AA931C7C8B84008E1D15 /* SlotCondition.swift in Sources */,
+				AB27AA951C7C8B84008E1D15 /* Tokenizer.swift in Sources */,
 				ABA55FD61C77482C0098B8B6 /* RPS.swift in Sources */,
-				AB7A49901C7748780047B2A6 /* BufferCondition.swift in Sources */,
 				AB7A49941C77572B0047B2A6 /* NavigationUIController.swift in Sources */,
-				AB7A498E1C7748780047B2A6 /* Instantiation.swift in Sources */,
-				AB7A49911C7748780047B2A6 /* SlotAction.swift in Sources */,
-				AB7A498D1C7748780047B2A6 /* Tokenizer.swift in Sources */,
-				AB7A498F1C7748780047B2A6 /* SlotCondition.swift in Sources */,
-				AB7A49861C7748780047B2A6 /* Chunk.swift in Sources */,
-				AB7A49891C7748780047B2A6 /* Parser.swift in Sources */,
-				AB7A498B1C7748780047B2A6 /* Support.swift in Sources */,
+				AB27AA891C7C8B84008E1D15 /* BufferAction.swift in Sources */,
+				AB27AA8A1C7C8B84008E1D15 /* BufferCondition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

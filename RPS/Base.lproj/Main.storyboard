@@ -100,7 +100,7 @@
                                     <rect key="frame" x="20" y="20" width="165" height="118"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="START!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LiW-Im-bUb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="START!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LiW-Im-bUb">
                                 <rect key="frame" x="261" y="279" width="78" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="78" id="3bX-YP-ywY">
@@ -264,13 +264,13 @@
         <!--Split View Controller-->
         <scene sceneID="tWu-8c-391">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SkF-OQ-cDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <splitViewController id="AAI-o0-RYU" sceneMemberID="viewController">
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="detailViewController" id="C1t-8S-9X3"/>
                         <segue destination="4Wx-1g-1z7" kind="relationship" relationship="masterViewController" id="TNY-Lq-N7N"/>
                     </connections>
                 </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SkF-OQ-cDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-613" y="-44.25"/>
         </scene>
@@ -283,6 +283,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DMN-9p-bTa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HGX-eQ-1VL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFW-Ch-3WZ">
@@ -297,7 +298,7 @@
                         <constraints>
                             <constraint firstItem="UFW-Ch-3WZ" firstAttribute="centerX" secondItem="HGX-eQ-1VL" secondAttribute="centerX" id="0fR-eD-x6J"/>
                             <constraint firstItem="UFW-Ch-3WZ" firstAttribute="width" secondItem="HGX-eQ-1VL" secondAttribute="width" id="FaW-q7-RHS"/>
-                            <constraint firstItem="UFW-Ch-3WZ" firstAttribute="top" secondItem="WEt-Vl-oh3" secondAttribute="bottom" constant="8" id="KJS-p7-MIl">
+                            <constraint firstItem="UFW-Ch-3WZ" firstAttribute="top" secondItem="WEt-Vl-oh3" secondAttribute="bottom" constant="8" id="SQ3-GU-EiS">
                                 <variation key="heightClass=regular" constant="8" symbolic="YES"/>
                             </constraint>
                         </constraints>
@@ -308,7 +309,7 @@
                             <mask key="constraints">
                                 <exclude reference="0fR-eD-x6J"/>
                                 <exclude reference="FaW-q7-RHS"/>
-                                <exclude reference="KJS-p7-MIl"/>
+                                <exclude reference="SQ3-GU-EiS"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -318,7 +319,7 @@
                             <mask key="constraints">
                                 <include reference="0fR-eD-x6J"/>
                                 <include reference="FaW-q7-RHS"/>
-                                <include reference="KJS-p7-MIl"/>
+                                <include reference="SQ3-GU-EiS"/>
                             </mask>
                         </variation>
                     </view>

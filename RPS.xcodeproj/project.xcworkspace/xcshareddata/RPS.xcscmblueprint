@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3243B11344461AAEB4AD786E533B78A5735CD856",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3243B11344461AAEB4AD786E533B78A5735CD856" : 0,
+    "BCD4EFC54C8D5401B1738B62704D98DF0FC33F40" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6E9C21E5-B5BC-4D5E-92BC-80734B41C5F4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3243B11344461AAEB4AD786E533B78A5735CD856" : "RPS\/",
+    "BCD4EFC54C8D5401B1738B62704D98DF0FC33F40" : "ACT-R\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RPS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RPS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RUGCogModTeam3\/RPS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3243B11344461AAEB4AD786E533B78A5735CD856"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ntaatgen\/ACT-R",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BCD4EFC54C8D5401B1738B62704D98DF0FC33F40"
+    }
+  ]
+}

@@ -82,7 +82,6 @@ class RPSViewController: UIViewController {
     @IBAction func chooseScissors() {decide(.Scissors)}
     
     func decide(playerchoice: RPSAction) {
-        print("Here?")
         var modelchoice: RPSAction = .Rock
         // Only do something if there is a model and that model is waiting for the player to take an action
         if model.waitingForAction && model.actionChunk() {
