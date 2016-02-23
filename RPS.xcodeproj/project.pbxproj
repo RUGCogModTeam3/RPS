@@ -50,7 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB046B351C7C8F8800BD9AD7 /* rps.actr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rps.actr; path = ../../../Downloads/rps.actr; sourceTree = "<group>"; };
+		AB046B351C7C8F8800BD9AD7 /* rps.actr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rps.actr; path = RPS/rps.actr; sourceTree = SOURCE_ROOT; };
 		AB27AA7C1C7C8B84008E1D15 /* BufferAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BufferAction.swift; path = RPS/BufferAction.swift; sourceTree = "<group>"; };
 		AB27AA7D1C7C8B84008E1D15 /* BufferCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BufferCondition.swift; path = RPS/BufferCondition.swift; sourceTree = "<group>"; };
 		AB27AA7E1C7C8B84008E1D15 /* Chunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chunk.swift; path = RPS/Chunk.swift; sourceTree = "<group>"; };
